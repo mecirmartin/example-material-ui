@@ -52,9 +52,11 @@ const dependencies = {
 
 window.__deps = dependencies;
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+if (window.__inject_application) {
+  ReactDOM.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+  );
+}
