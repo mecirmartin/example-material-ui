@@ -51,6 +51,7 @@ const dependencies = {
 };
 
 window.__deps = dependencies;
+window.__inject_application = true;
 
 if (window.__inject_application) {
   ReactDOM.render(
