@@ -20,8 +20,8 @@ import * as ReactRouter from 'react-router';
 import * as ReactRouterDom from 'react-router-dom';
 import * as Uuid from 'uuid';
 import * as Yup from 'yup';
-// import { BrowserRouter } from 'react-router-dom';
-// import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
 const dependencies = {
   '@material-ui': {
@@ -52,11 +52,11 @@ const dependencies = {
 
 window.__deps = dependencies;
 
-// if (!window.__skip_render) {
-//   ReactDOM.render(
-//     <BrowserRouter>
-//       <App />
-//     </BrowserRouter>,
-//     document.getElementById('root')
-//   );
-// }
+if (!window.__skip_render) {
+  ReactDOM.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+  );
+}
