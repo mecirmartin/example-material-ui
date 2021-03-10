@@ -20,6 +20,7 @@ import * as ReactRouter from 'react-router';
 import * as ReactRouterDom from 'react-router-dom';
 import * as Uuid from 'uuid';
 import * as Yup from 'yup';
+import * as ReactIntl from 'react-intl';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
@@ -47,7 +48,8 @@ const dependencies = {
   'react-router': ReactRouter,
   'react-router-dom': ReactRouterDom,
   uuid: Uuid,
-  yup: Yup
+  yup: Yup,
+  'react-intl': ReactIntl
 };
 
 window.__deps = dependencies;
