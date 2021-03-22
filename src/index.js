@@ -21,7 +21,7 @@ import * as ReactRouterDom from 'react-router-dom';
 import * as Uuid from 'uuid';
 import * as Yup from 'yup';
 import * as ReactIntl from 'react-intl';
-import * as MaterialUiDataGrid from '@material-ui/data-grid'
+import * as MaterialUiDataGrid from '@material-ui/data-grid';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
