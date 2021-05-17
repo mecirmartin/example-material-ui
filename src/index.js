@@ -22,6 +22,7 @@ import * as Uuid from 'uuid';
 import * as Yup from 'yup';
 import * as ReactIntl from 'react-intl';
 import * as MaterialUiDataGrid from '@material-ui/data-grid';
+import gql from 'graphql-tag';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
@@ -51,7 +52,8 @@ const dependencies = {
   'react-router-dom': ReactRouterDom,
   uuid: Uuid,
   yup: Yup,
-  'react-intl': ReactIntl
+  'react-intl': ReactIntl,
+  'graphql-tag': gql
 };
 
 window.__deps = dependencies;
