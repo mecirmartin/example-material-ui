@@ -18,6 +18,7 @@ import * as ReactHelmet from 'react-helmet';
 import * as ReactPerfectScrollbar from 'react-perfect-scrollbar';
 import * as ReactRouter from 'react-router';
 import * as ReactRouterDom from 'react-router-dom';
+import * as Urql from 'urql'
 import * as Uuid from 'uuid';
 import * as Yup from 'yup';
 import * as ReactIntl from 'react-intl';
@@ -53,7 +54,8 @@ const dependencies = {
   uuid: Uuid,
   yup: Yup,
   'react-intl': ReactIntl,
-  'graphql-tag': gql
+  'graphql-tag': gql,
+  urql:Urql
 };
 
 window.__deps = dependencies;
