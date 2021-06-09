@@ -54,8 +54,7 @@ const dependencies = {
   uuid: Uuid,
   yup: Yup,
   'react-intl': ReactIntl,
-  'graphql-tag': gql,
-  urql: Urql
+  'graphql-tag': gql
 };
 
 window.__deps = dependencies;
