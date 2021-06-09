@@ -23,7 +23,7 @@ import * as Yup from 'yup';
 import * as ReactIntl from 'react-intl';
 import * as MaterialUiDataGrid from '@material-ui/data-grid';
 import gql from 'graphql-tag';
-import * as Urql from 'urql'
+import * as Urql from 'urql';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
