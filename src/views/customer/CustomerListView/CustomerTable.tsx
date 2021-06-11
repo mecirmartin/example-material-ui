@@ -10,7 +10,7 @@ import CustomerTableRow from './CustomerTableRow';
 import CustomerTableHead from './CustomerTableHead';
 import { CustomersProps } from './Types'
 import Loading from './Loading';
-
+// ukazka
 const CustomerTable: React.FC<CustomersProps> = ({ customers }) => {
 
   const [selectedCustomerIds, setSelectedCustomerIds] = useState([]);
