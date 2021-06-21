@@ -59,9 +59,7 @@ const dependencies = {
 };
 
 window.__deps = dependencies;
-window.__deps_default = {
-  a: ''
-};
+
 
 if (!window.__skip_render) {
   ReactDOM.render(
