@@ -58,7 +58,6 @@ const dependencies = {
 
 window.__deps = dependencies;
 
-
 if (!window.__skip_render) {
   ReactDOM.render(
     <BrowserRouter>
