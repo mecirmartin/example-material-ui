@@ -28,7 +28,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 const dependencies = {
- '@material-ui': {
+    '@material-ui': {
     core: MaterialUiCore,
     icons: MaterialUiIcons,
     lab: MaterialUiLab,
