@@ -28,11 +28,13 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 const dependencies = {
-  '@material-ui/core': MaterialUiCore,
-  '@material-ui/icons': MaterialUiIcons,
-  '@material-ui/lab': MaterialUiLab,
-  '@material-ui/styles': MaterialUiStyles,
-  '@material-ui/data-grid': MaterialUiDataGrid,
+ '@material-ui': {
+    core: MaterialUiCore,
+    icons: MaterialUiIcons,
+    lab: MaterialUiLab,
+    styles: MaterialUiStyles,
+    'data-grid': MaterialUiDataGrid
+  },
   'chart.js': ChartJs,
   clsx: Clsx,
   formik: Formik,
